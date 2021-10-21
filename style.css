@@ -1,4 +1,9 @@
 /* Navbar */
+
+* {
+	font-family: sans-serif;
+}
+
 .navbar{
 	position: relative;
 	z-index: 1;
@@ -102,7 +107,7 @@
 
 /*Testimonial*/
 .testimonial{
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 .testimonial h5{
@@ -155,6 +160,244 @@
 	border-radius: 40px;
 }
 
+
+/* Pricing */
+.pricing-title{
+	text-align: center;
+}
+
+.pricing-description{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.pricing-plan{
+	width: auto;
+	border-radius: 25px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #555555;
+	margin: 15px;
+	margin-top: 50px;
+}
+
+.pricing-plan--highlighted{
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+	transform: scale(1.05);
+}
+
+.pricing-plan-special-text{
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #007c64;
+	text-shadow: 0 0 10pc rgba(0, 0, 0, 0.2) inset;
+	font-size: 18px;
+}
+
+.pricing-plan-header{
+	padding: 25px;
+	background-color: #009578;
+	color: #ffffff;
+}
+
+.pricing-plan-title, 
+.pricing-plan-summary{
+	margin: 0;
+	text-align: center;
+}
+
+.pricing-plan-title{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+.pricing-plan-summary{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.pricing-plan-description{
+	padding: 25px;
+}
+
+.pricing-plan-list{
+	padding: 0;
+	margin: 0;
+}
+
+.pricing-plan-feature{
+	list-style: none;
+	margin: 0;
+	padding-left: 25px;
+	position: relative;
+	font-size: 18px;
+}
+
+.pricing-plan-feature:not(:last-child){
+	margin-bottom: 0.5em;
+}
+
+.pricing-plan-feature:before{
+	content: "\2714";
+	color: #009578;
+	position: absolute;
+	left: 0;
+}
+
+.pricing-plan-actions{
+	padding: 25px;
+	border-top: 1px solid #eeeeee;
+	display: flex;
+	flex-direction: column;
+}
+
+.pricing-plan-button {
+	width: auto;
+	display: inline-block;
+	margin: 15px auto;
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #009578;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border: 1px solid #009578;
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+	font-weight: bold;
+}
+
+.pricing-plan-button:hover{
+	background-color: #009578;
+	color: #ffffff;
+}
+
+.pricing-plan-cost{
+	margin: 0;
+	text-align: center;
+	font-size: 2em;
+	color: #000000;
+}
+
+.pricing-plan-text{
+	font-size: 0.9em;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.clear{
+	clear: left;
+}
+/* About */
+
+.about {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.about-description{
+	text-align: justify;
+	font-size: 18px;
+}
+
+.about-content{
+	text-align: justify;
+	font-size: 18px;
+}
+
+.social{
+	margin: 40px 40px 40px 0px;
+}
+.social i{
+	color:#a52a2a;
+	font-size: 30px;
+	padding:0px 10px;
+}
+.about .social i:hover{
+	color:  #007bff;
+}
+
+.about-image-section{
+	margin-top: 20px;
+}
+
+/* Features */
+.features{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.feature-description{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.feature-content{
+	font-size: 18px;
+	margin-top: 5px;
+}
+
+.feature-content {
+	margin-top: 10px;
+	text-align: justify;
+}
+
+/* Join Us */
+#joinUs{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.join-us-description{
+	font-size: 18px;
+	text-align: justify;
+}
+
+.join-us-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.join-us {
+  float: left;
+  width: 25%;
+}
+
+.join-us-icon {
+  position: relative;
+}
+
+.join-us-icon h4{
+	margin-top: 10px;
+}
+
+.join-us p{
+	font-size: 18px;
+}
+
+/* Tablet */
+@media all and (max-width: 1000px) {
+  .join-us {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Smartphone */
+@media all and (max-width: 670px) {
+  .join-us {
+    width: 100%;
+  }
+}
+
 /* Desktop */
 @media (min-width: 992px){
 	.navbar-brand, .nav-link{
@@ -192,5 +435,30 @@
 
 	.testimonial h5{
 		font-size: 32px;
+	}
+
+	.about-image-section{
+		margin-bottom: 0px;
+	}
+
+	.about-description{
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.feature-content {
+		margin-top: 0;
+	}
+
+	.feature-description{
+		text-align: center;
+	}
+
+	.pricing-description{
+		text-align: center;
+	}
+
+	.join-us-description{
+		text-align: center;
 	}
 }

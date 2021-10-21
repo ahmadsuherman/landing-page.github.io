@@ -10,8 +10,11 @@
 
     <title>AmdSandhiGa</title>
     <!-- My Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
@@ -24,11 +27,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link" href="#">Feature</a>
-            <a class="nav-item nav-link" href="#" >About</a>
-            <a class="nav-item btn btn-primary tombol" href="#" >Join Us</a>
+            <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#about" >About</a>
+            <a class="nav-item nav-link" href="#feature">Feature</a>
+            <a class="nav-item nav-link" href="#pricing">Pricing</a>
+            <a class="nav-item btn btn-primary tombol" href="#joinUs" >Join Us</a>
             
           </div>
         </div>
@@ -37,7 +40,7 @@
   <!-- Akhir Navbar -->
 
   <!-- Awal Jumbotron -->
-  <div class="jumbotron jumbotron-fluid">
+  <div class="jumbotron jumbotron-fluid" id="home">
     <div class="container">
       <h1 class="display-4"> Get work done <span>faster</span><br> and <span>better with us</span></h1>
       <a href="" class="btn btn-primary tombol">Our Work</a>
@@ -87,10 +90,101 @@
         <p>Bekerja dengan suasana hati yang lebih asik dan mempelajari hal baru setiap harinya.</p>
         <a href="" class="btn btn-primary tombol">Gallery</a>
       </div>
-      
     </div>
     <!-- Akhir Workingspace -->
 
+    <!-- Awal About -->
+    <div id="about">
+      <div class="row about">
+        <div class="col-xl-12">
+          <h2 class="about-title">About US</h2>
+          <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div> 
+      </div>  
+
+      <div class="row">
+        <div class="col-lg-6">
+            <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <a href="" class="btn btn-primary tombol">Baca Selengkapnya</a>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="about-image-section">
+            <img src="img/about.jpg" alt="img-about" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Akhir About -->
+
+    <!-- Awal Features -->
+    <div id="feature">
+      <div class="row features">
+        <div class="col-12">
+          <h2 class="feature-title">Feature</h2>
+          <p class="feature-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna.</p>
+        </div> 
+      </div>  
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="feature-img">
+            <img src="img/features.png" alt="img-features" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="row feature-content">
+            <div class="col-1"><i class="fas fa-tools"></i></div>
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+              </p>
+            </div>
+          </div>
+          <div class="row feature-content">
+            <div class="col-1"><i class="fas fa-cogs"></i></i></div>
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+              </p>
+            </div>
+          </div>
+          <div class="row feature-content">
+            <div class="col-1"><i class="fas fa-cart-arrow-down"></i></div>
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Features -->
+    
     <!-- Awal Testimonial -->
     <section class="testimonial">
       <div class="row justify-content-center quote">
@@ -116,11 +210,153 @@
           <figure class="figure"> 
             <img src="img/img3.png" class="figure-img img-fluid rounded-circle" alt="Testi 3">
           </figure>
-
         </div>
       </div>
     </section>
     <!-- Akhir Testimonial -->
+
+    <!-- Awal Pricing -->
+    <div id="pricing">
+      <div class="row pricing">
+        <div class="col-12">
+          <h2 class="pricing-title">Pricing</h2>
+          <p class="pricing-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua..</p>
+        </div> 
+      </div>  
+
+      <div class="row">
+        <div class="col-lg">
+          <div class="pricing-plan">
+            <div class="pricing-plan-header">
+              <div class="pricing-plan-title">PLATINUM</div>
+              <div class="pricing-plan-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+            </div>
+
+            <div class="pricing-plan-description">
+              <ul class="pricing-plan-list">
+                <li class="pricing-plan-feature"> Feature 1</li>
+                <li class="pricing-plan-feature"> Feature 2</li>
+                <li class="pricing-plan-feature"> Feature 3</li>
+                
+              </ul>
+            </div>
+
+            <div class="pricing-plan-actions">
+              <p class="pricing-plan-cost">Rp 810.000</p>
+              <p class="pricing-plan-text">6 Bulan</p>
+              <a href="#" class="pricing-plan-button">Beli Sekarang</a>
+            </div>
+          
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="pricing-plan pricing-plan--highlighted">
+            <div class="pricing-plan-special-text">Popular</div>
+            <div class="pricing-plan-header">
+              <div class="pricing-plan-title">GOLD</div>
+              <div class="pricing-plan-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+            </div>
+
+            <div class="pricing-plan-description">
+              <ul class="pricing-plan-list">
+                <li class="pricing-plan-feature"> Feature 1</li>
+                <li class="pricing-plan-feature"> Feature 2</li>
+                <li class="pricing-plan-feature"> Feature 3</li>
+                
+              </ul>
+            </div>
+
+            <div class="pricing-plan-actions">
+              <p class="pricing-plan-cost">Rp 405.000</p>
+              <p class="pricing-plan-text">3 Bulan</p>
+              <a href="#" class="pricing-plan-button">Beli Sekarang</a>
+            </div>
+          
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="pricing-plan">
+            <div class="pricing-plan-header">
+              <div class="pricing-plan-title">SILVER</div>
+              <div class="pricing-plan-summary">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</div>
+            </div>
+
+            <div class="pricing-plan-description">
+              <ul class="pricing-plan-list">
+                <li class="pricing-plan-feature"> Feature 1</li>
+                <li class="pricing-plan-feature"> Feature 2</li>
+                <li class="pricing-plan-feature"> Feature 3</li>
+                
+              </ul>
+            </div>
+
+            <div class="pricing-plan-actions">
+              <p class="pricing-plan-cost">RP 135.000</p>
+              <p class="pricing-plan-text">1 Bulan</p>
+              <a href="#" class="pricing-plan-button">Beli Sekarang</a>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Pricing -->
+
+    <!-- Awal Join Us -->
+    <div id="joinUs">
+      <div class="row">
+        <div class="col-xl-12">
+          <h2 class="join-us-title">Join Us</h2>
+          <p class="join-us-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          
+  
+            <div class="join-us">
+              <a href="">
+                <div class="join-us-icon">
+                  <img src="img/advisitory.png">
+                   <h4>Advisory</h4>
+                </div>
+              </a>
+               <p class="text-contents">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <div class="join-us">
+              <a href="">
+                <div class="join-us-icon">
+                  <img src="img/developer.png">
+                  <h4>Developer</h4>
+                </div>
+              </a>   
+              <p class="text-contents">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="join-us">
+              <a href="">
+                <div class="join-us-icon">
+                  <img src="img/planning.png">
+                  <h4>Planning</h4>
+                </div>
+              </a>
+              <p class="text-contents">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="join-us">
+              <div class="join-us-icon">
+                <a href="">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnG4uMjynktGZlUIJDtAYZeGYmTXxGQgRXy8AOmRWJ0KUEJePKkVoqhcRxwfeuhtfItw&usqp=CAU">
+                  <h4>Statergi</h4>
+                </a>
+              </div>
+              <p class="text-contents">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="clear"></div>
+  
+
+        </div> 
+      </div>  
+    </div>
+    <!-- Akhir Join Us -->
 
     <!-- Awal Footer -->
     <div class="row footer">
@@ -132,16 +368,7 @@
   </div>
   <!-- Akhir Container -->
 
-  <!-- Optional JavaScript; choose one of the two! -->
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-  <!-- Option 2: Separate Popper and Bootstrap JS -->
-  <!--
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-  -->
   </body>
 </html>
